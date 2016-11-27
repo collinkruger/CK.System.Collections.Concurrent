@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CK.System.Collection.Concurrent\CK.System.Collection.Concurrent.csproj" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>9029ba02-a62e-4bbc-9aa2-d7492126a8e7</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>CK.System.Collections.Concurrent</Id>
+    <Version>0.0.1</Version>
+    <Title>CK.System.Collections.Concurrent</Title>
+    <Authors>Collin Kruger</Authors>
+    <Owners>Collin Kruger</Owners>
+    <Summary>CK.System.Collections.Concurrent</Summary>
+    <Description>CK.System.Collections.Concurrent</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>https://github.com/collinkruger/CK.System.Collections.Concurrent</ProjectUrl>
+    <LicenseUrl>https://github.com/collinkruger/CK.System.Collections.Concurrent/blob/master/LICENSE</LicenseUrl>
+    <Copyright>Copyright © Collin Kruger</Copyright>
+    <Tags>CK.System.Collections.Concurrent</Tags>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
